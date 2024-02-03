@@ -1,0 +1,123 @@
+
+body{
+    background-color: #064f55;
+    color: #ffffff;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+h1, h2, h3, h4{
+    line-height: 2.0;
+}
+
+h1{
+    font-size: 2.75em;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 2.00em;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 1.0em;
+    font-weight: 590;
+}
+
+
+
+
+
+
+a{
+    color: #ebd408;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #cc6540; 
+    text-decoration: underline;
+}
+
+
+a:visited{
+    color: #ff7f50;
+}
+
+
+a:active {
+    color: #994c30;
+}
+
+
+
+
+.button{
+    display: inline-block;
+    background-color: #1e93ff;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 2px solid #1e93ff;
+    transition: 0.2s opacity;
+}
+
+.button:hover{
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.button:visited{
+    color: #ff7f50;
+}
+
+.button:active{
+    color: #994c30;
+}
+
+
+
+
+
+.button.contact{
+    background-color: transparent;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 2px solid #ebd408;
+}
+
+.button.contact:hover{
+        background-color: #ebd408;
+        color: #ffffff;
+}
+
+
+.button.contact:visited{
+    color: #ff7f50;
+}
+
+
+.button.contact:active{
+    color: #994c30;
+}
+
+
+
+
+
+
+
+
+img {
+    width: 100%;
+  }
