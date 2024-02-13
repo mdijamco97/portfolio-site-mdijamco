@@ -131,7 +131,7 @@ a:active {
 header {
     background-color: #387D83;
     padding: 10px;
-    margin: 0 auto;
+    margin: 0;
     border: 3px solid #416568;
     display: block;
     width: 1200px;
@@ -187,7 +187,8 @@ h4 {
 
 .logo {
     max-width: 250px;
-
+    padding: 10px;
+   
 }
 
 
@@ -270,6 +271,7 @@ nav>ul>li>a:active {
     width: 100%;
     max-width: 100%;
     height: auto;
+    
 }
 
 @keyframes color-change {
@@ -316,6 +318,14 @@ nav>ul>li>a:active {
     animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+
+
+.social_icon{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    
+}
 
 
 
