@@ -136,7 +136,6 @@ header {
     display: block;
     width: 1200px;
     width: 100%;
-    text-align: center;
     width: [object Object]px;
     height: [object Object]px;
     box-shadow: 5px 7px 19px rgba(0, 0, 0, 0.5);
@@ -145,6 +144,7 @@ header {
     position: relative;
 
 }
+
 
 
 
@@ -186,22 +186,21 @@ h4 {
 
 
 .logo {
-    max-width: 250px;
-    padding: 10px;
-   
+    max-width: 150px;
+    
+
 }
+
 
 
 nav>ul {
     list-style-type: none;
     padding: 0;
-    display: block;
-
+    margin: 0;
 }
 
-nav>ul>li {
-    display: inline-block;
-}
+
+
 
 nav>ul>li>a {
     padding: 0 15px;
@@ -262,7 +261,7 @@ nav>ul>li>a:active {
 }
 
 
-.skills-tools{
+.skills-tools {
     padding-left: 100px;
 }
 
@@ -271,7 +270,7 @@ nav>ul>li>a:active {
     width: 100%;
     max-width: 100%;
     height: auto;
-    
+
 }
 
 @keyframes color-change {
@@ -320,19 +319,56 @@ nav>ul>li>a:active {
 
 
 
-.social_icon{
+.social_icon {
     height: 100px;
     width: 100px;
     display: inline-block;
-    
+
 }
 
 
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
+
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
+}
+
+/*responsive*/
+
+.navtoggle,
+.navtoggle.responsive {
+    position: relative;
+}
+
+.navtoggle.responsive li{
+    display: block;
+}
+
+.navtoggle.responsive nav{
+    padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child{
+    padding: 0 0 10px;
+}
 
 /*media queries*/
 
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
     header {
         text-align: unset;
         padding: 20px 0 13px;
@@ -347,6 +383,22 @@ nav>ul>li>a:active {
     .col-md-6 {
         width: 50%;
     }
+
+    nav>ul>li {
+        display: inline-block;
+    }
+
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+
+    .navtoggle li:last-child {
+        display: none;
+    }
+
+   nav > ul {
+    margin: 1em 0;
+   }
 
 
 }
@@ -366,7 +418,9 @@ nav>ul>li>a:active {
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
+        
     }
+   
 }
 
 @media only screen and (min-width: 1440px) {}
