@@ -136,12 +136,9 @@ header {
     display: block;
     width: 1200px;
     width: 100%;
-    width: [object Object]px;
-    height: [object Object]px;
     box-shadow: 5px 7px 19px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 5px 7px 19px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 5px 7px 19px rgba(0, 0, 0, 0.5);
     position: relative;
+
 
 }
 
@@ -187,7 +184,7 @@ h4 {
 
 .logo {
     max-width: 150px;
-    
+
 
 }
 
@@ -347,21 +344,21 @@ nav>ul>li>a:active {
     position: relative;
 }
 
-.navtoggle.responsive li{
+.navtoggle.responsive li {
     display: block;
 }
 
-.navtoggle.responsive nav{
+.navtoggle.responsive nav {
     padding: 24px 0 0;
 }
 
 .navtoggle.responsive li {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid rgba(255,127,80,0.5);
+    border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
 
-.navtoggle.responsive li:last-child{
+.navtoggle.responsive li:last-child {
     padding: 0 0 10px;
 }
 
@@ -396,9 +393,9 @@ nav>ul>li>a:active {
         display: none;
     }
 
-   nav > ul {
-    margin: 1em 0;
-   }
+    nav>ul {
+        margin: 1em 0;
+    }
 
 
 }
@@ -418,9 +415,9 @@ nav>ul>li>a:active {
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
-        
+
     }
-   
+
 }
 
 @media only screen and (min-width: 1440px) {}
