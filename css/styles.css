@@ -77,13 +77,13 @@ a:active {
 
 .button {
     display: inline-block;
-    background-color: #1e93ff;
+    background-color: #0075e1;
     color: #ffffff;
     font-weight: 400;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-    border-bottom: 2px solid #1e93ff;
+    border-bottom: 2px solid #0075e1;
     transition: 0.2s opacity;
 }
 
