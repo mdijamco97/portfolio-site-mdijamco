@@ -1,188 +1,170 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Marco Dijamco">
-    <meta name="description" content="Portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Marco Dijamco" />
+    <meta name="description" content="Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <title>About Marco Dijamco!</title>
-    <script src="https://kit.fontawesome.com/d7f84a0d49.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/d7f84a0d49.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-
+  <body>
     <header id="header">
-        <div>
-          <div class="navtoggle" id="myNavtoggle">
-            <img src="img/logo.svg" class="logo" alt="PlutoPlay Logo">
-    
-    
-            <nav>
-              <ul>
-                <li><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="plutoplay.html">Projects</a></li>
-                <li><a href="#contact.html" onclick="menuToggle()">Contact</a></li>
-                <li>
-                  <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+      <div>
+        <div class="navtoggle" id="myNavtoggle">
+          <img src="img/logo.svg" class="logo" alt="PlutoPlay Logo" />
+
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="plutoplay.html">Projects</a></li>
+              <li>
+                <a href="#contact.html" onclick="menuToggle()">Contact</a>
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fa-solid fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
-    
-    
-      </header>
-
-
+      </div>
+    </header>
 
     <main>
-        <!--hero-->
-        <div id="hero">
-            <div class="container">
+      <!--hero-->
+      <div id="hero">
+        <div class="container">
+          <h1>About</h1>
 
-                <h1>About</h1>
+          <div>
+            <picture>
+              <source
+                srcset="img/photo_of_me_small.jpg"
+                media="(max-width:767px)"
+              />
+              <img src="img/photo_of_me_large.jpg" alt="Profile Picture" />
+            </picture>
+          </div>
 
-                <div>
-                    <picture>
-                        <source srcset="img/photo_of_me_small.jpg" media="(max-width:767px)">
-                        <img src="img/photo_of_me_large.jpg" alt="Profile Picture">
-                    </picture>
-                </div>
+          <div class="row">
+            <div class="column col-md-6 col-lg-7">
+              <h2>My Story</h2>
 
+              <p>
+                My name is Marco Dijamco, I was born and raised in the Bay Area
+                of California. Coming from the Bay I was exposed to a lot of
+                different people and different cultures. This allowed me to
+                become comfortable when put in situations with different types
+                of people.
+              </p>
 
+              <p>
+                I really like to be active and play basketball as well as watch
+                it. However, my passion is with technology. I love reading about
+                all the new technology that's progressing and getting excited
+                about what's to come. Also hanging out with my girlfriend and
+                our dog, whether that be going out and getting something to eat
+                or just staying at home relaxing is something that I look
+                forward to after a long day.
+              </p>
 
-
-
-                <div class="row">
-                    <div class="column col-md-6 col-lg-7">
-
-                        <h2>My Story</h2>
-
-
-                        <p>
-                            My name is Marco Dijamco, I was born and raised in the Bay Area
-                            of California. Coming from the Bay I was exposed to a lot of
-                            different people and different cultures. This allowed me to become
-                            comfortable when put in situations with different types of people.
-                        </p>
-
-
-
-                        <p>
-                            I really like to be active and play basketball as well as watch it.
-                            However, my passion is with technology. I love reading about all the
-                            new technology that's progressing and getting excited about what's
-                            to come. Also hanging out with my girlfriend and our dog, whether
-                            that be going out and getting something to eat or just staying at
-                            home relaxing is something that I look forward to after a long day.
-                        </p>
-
-
-
-                        <a href="files/temp_resume.pdf" class="button">Here's a link to my resume!</a>
-                    </div>
-
-
-
-
-
-
-                    <div class="column col-md-6 col-lg-5">
-
-
-                        <h2>Skills and Tools</h2>
-
-                        <div class="skills-tools">
-                            <h3>Skills:</h3>
-                            <ul>
-                                <li>UX Design</li>
-                                <li>User Research</li>
-                                <li>Wireframing</li>
-                                <li>Usability Tests</li>
-                                <li>Prototyping</li>
-                                <li>UI Design</li>
-                            </ul>
-
-
-
-                            <h3>Tools:</h3>
-                            <ul>
-                                <li>Figma</li>
-                                <li>Marvel</li>
-                                <li>Canva</li>
-                            </ul>
-                        </div>
-                    </div>
-
-
-
-                </div>
+              <a href="files/temp_resume.pdf" class="button"
+                >Here's a link to my resume!</a
+              >
             </div>
-        </div>
 
+            <div class="column col-md-6 col-lg-5">
+              <h2>Skills and Tools</h2>
 
+              <div class="skills-tools">
+                <h3>Skills:</h3>
+                <ul>
+                  <li>UX Design</li>
+                  <li>User Research</li>
+                  <li>Wireframing</li>
+                  <li>Usability Tests</li>
+                  <li>Prototyping</li>
+                  <li>UI Design</li>
+                </ul>
 
-        <!--works/projects-->
-        <div id="work">
-            <div class="container">
-
+                <h3>Tools:</h3>
+                <ul>
+                  <li>Figma</li>
+                  <li>Marvel</li>
+                  <li>Canva</li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
+      <!--works/projects-->
+      <div id="work">
+        <div class="container"></div>
+      </div>
     </main>
 
     <footer id="footer">
+      <div class="container">
+        <h2>Get in touch</h2>
+        <p>
+          Would you like to get in touch? Call:
+          <a href="tel:123456789">123456789</a>. Or you can send me an email!
+        </p>
 
-        <div class="container">
-            <h2>Get in touch</h2>
-            <p>
-                Would you like to get in touch? Call: <a href="tel:123456789">123456789</a>. Or you can send me an
-                email!
-            </p>
+        <a href="mailto:mdijamco@email.com" class="button contact">Email me</a>
 
+        <a
+          href="https://www.behance.net/marcodijamco"
+          class="social_icon"
+          target="_blank"
+        >
+          <img src="img/behance.svg" alt="Behance" />
+        </a>
 
+        <a
+          href="https://www.instagram.com/marcodijamco/"
+          class="social_icon"
+          target="_blank"
+        >
+          <img src="img/instagram.svg" alt="Instagram" />
+        </a>
 
-            <a href="mailto:mdijamco@email.com" class="button contact">Email me</a>
+        <a
+          href="https://www.twitter.com/dijamcomarco"
+          class="social_icon"
+          target="_blank"
+        >
+          <img src="img/twitter.svg" alt="X/Twitter" />
+        </a>
 
-
-
-            <a href="https://www.behance.net/marcodijamco" class="social_icon" target="_blank">
-                <img src="img/behance.svg" alt="Behance">
-            </a>
-
-
-
-            <a href="https://www.instagram.com/marcodijamco/" class="social_icon" target="_blank">
-                <img src="img/instagram.svg" alt="Instagram">
-            </a>
-
-
-
-            <a href="https://www.twitter.com/dijamcomarco" class="social_icon" target="_blank">
-                <img src="img/twitter.svg" alt="X/Twitter">
-            </a>
-
-
-
-
-
-
-
-            <div>
-                <p>Copyright Marco Dijamco 2024</p>
-            </div>
-
+        <div>
+          <p>Copyright Marco Dijamco 2024</p>
         </div>
+      </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
-
-</body>
-
+  </body>
 </html>
