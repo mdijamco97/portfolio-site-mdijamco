@@ -22,7 +22,7 @@ h2,
 h3,
 h4 {
     line-height: 2.0;
-   
+
 }
 
 h1 {
@@ -318,12 +318,19 @@ nav>ul>li>a:active {
 
 
 .social_icon {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     display: inline-block;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+
 
 }
 
+.email {
+    text-align: center;
+}
 
 .navtoggle li:not(:last-child) {
     display: none;
@@ -338,7 +345,7 @@ nav>ul>li>a:active {
     padding-right: 0;
 }
 
-.plutoimg{
+.plutoimg {
     width: 50%;
     display: block;
     margin-left: auto;
@@ -374,17 +381,19 @@ nav>ul>li>a:active {
 /*media queries*/
 
 
-@media only screen and (max-width: 640px){
-    h1{
+@media only screen and (max-width: 640px) {
+    h1 {
         font-size: 32px;
     }
 
-    .imgpluto{
+    .imgpluto {
         width: 60%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
+
 }
 
 
@@ -421,8 +430,8 @@ nav>ul>li>a:active {
         margin: 1em 0;
     }
 
-  
-   
+
+
 }
 
 
