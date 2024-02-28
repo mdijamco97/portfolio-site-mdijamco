@@ -22,21 +22,22 @@ h2,
 h3,
 h4 {
     line-height: 2.0;
+   
 }
 
 h1 {
-    font-size: 2.75em;
+    font-size: 32px;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 2.00em;
+    font-size: 30px;
     font-weight: 700;
 
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -337,6 +338,14 @@ nav>ul>li>a:active {
     padding-right: 0;
 }
 
+.plutoimg{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /*responsive*/
 
 .navtoggle,
@@ -363,6 +372,21 @@ nav>ul>li>a:active {
 }
 
 /*media queries*/
+
+
+@media only screen and (max-width: 640px){
+    h1{
+        font-size: 32px;
+    }
+
+    .imgpluto{
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 
 @media only screen and (min-width: 641px) {
@@ -397,7 +421,8 @@ nav>ul>li>a:active {
         margin: 1em 0;
     }
 
-
+  
+   
 }
 
 
