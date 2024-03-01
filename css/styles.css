@@ -9,11 +9,12 @@
 
 
 body {
-    background-color: #064f55;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     font-family: 'Commissioner', sans-serif;
     font-size: 18px;
     line-height: 1.6;
+    font-weight: 500;
 }
 
 
@@ -52,25 +53,27 @@ h4 {
 
 
 a {
-    color: #ebd408;
+    color: #000000;
     text-decoration: none;
     transition: 0.2s;
+    font-weight: bold;
 }
 
 
 a:hover {
-    color: #cc6540;
+    color: #000000;
     text-decoration: underline;
+    opacity: 0.8;
 }
 
 
 a:visited {
-    color: #ff7f50;
+    color: #000000;
 }
 
 
 a:active {
-    color: #994c30;
+    color: #000000;
 }
 
 
@@ -78,27 +81,29 @@ a:active {
 
 .button {
     display: inline-block;
-    background-color: #0075e1;
+    background-color: #064F55;
     color: #ffffff;
     font-weight: 400;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-    border-bottom: 2px solid #0075e1;
+    border-bottom: 2px solid #064F55;
     transition: 0.2s opacity;
+    box-shadow: 5px 7px 19px #F2F2F2;
 }
 
 .button:hover {
     opacity: 0.8;
     text-decoration: none;
+    color: #00D1E2;
 }
 
 .button:visited {
-    color: #ff7f50;
+    color: #00D1E2;
 }
 
 .button:active {
-    color: #994c30;
+    color: #ffffff;
 }
 
 
@@ -107,37 +112,38 @@ a:active {
 
 .button.contact {
     background-color: transparent;
-    color: #ffffff;
+    color: #000000;
     text-transform: uppercase;
-    border: 2px solid #ebd408;
+    border: 2px solid #064F55;
+    font-weight: 600;
 }
 
 .button.contact:hover {
-    background-color: #ebd408;
-    color: #ffffff;
+    background-color: #426568;
+    color: #000000;
 }
 
 
 .button.contact:visited {
-    color: #ff7f50;
+    color: #000000;
 }
 
 
 .button.contact:active {
-    color: #994c30;
+    color: #000000;
 }
 
 
 
 header {
-    background-color: #387D83;
+    background-color: #ffffff;
     padding: 10px;
     margin: 0;
-    border: 3px solid #416568;
+    border: 3px solid #ffffff;
     display: block;
     width: 1200px;
     width: 100%;
-    box-shadow: 5px 7px 19px rgba(0, 0, 0, 0.5);
+    
     position: relative;
 
 
@@ -204,35 +210,35 @@ nav>ul>li>a {
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #ffffff;
+    color: #000000;
 }
 
 
 
 
 nav>ul>li>a:hover {
-    color: #cc6540;
+    color: #000000;
     text-decoration: underline;
-
+    opacity: 0.8;
 }
 
 
 nav>ul>li>a:visited {
-    color: #ff7f50;
+    color: #000000;
 }
 
 
 nav>ul>li>a:active {
-    color: #994c30;
+    color: #000000;
 }
 
 
 #hero {
-    background-color: #387D83;
+    background-color: #ffffff;
     padding: 20px 0;
     display: inline-block;
     width: 100%;
-    border-bottom: 3px solid #416568;
+    
 
 
 
@@ -244,15 +250,15 @@ nav>ul>li>a:active {
 
 
 #work {
-    background-color: #387D83;
+    background-color: #ffffff;
     padding: 20px 0;
     display: inline-block;
     width: 100%;
-    border-bottom: 3px solid #416568;
+    
 }
 
 #footer {
-    background-color: #387D83;
+    background-color: #ffffff;
     padding: 20px 0;
     display: inline-block;
     width: 100%;
@@ -376,6 +382,11 @@ nav>ul>li>a:active {
 
 .navtoggle.responsive li:last-child {
     padding: 0 0 10px;
+}
+
+
+.photopluto{
+    width: 50%;
 }
 
 /*media queries*/
