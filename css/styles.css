@@ -389,6 +389,11 @@ nav>ul>li>a:active {
     width: 50%;
 }
 
+.text{
+    text-align: center;
+}
+
+
 /*media queries*/
 
 
